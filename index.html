@@ -16,12 +16,14 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
   <link
     href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&family=Work+Sans:wght@400;500;700&display=swap"
     rel="stylesheet">
 
-  <link rel="preload" as="image" href="shoes.png">
-  <link rel="preload" as="image" href="hero-bg.jpg">
+  <link rel="preload" as="image" href="assets/image/shoes.png">
+  <link rel="preload" as="image" href="assets/image/hero-bg.jpg">
+  <script src="assets/js/script.js" defer></script>
 
 </head>
 
@@ -32,7 +34,7 @@
       <div class="container">
 
         <a href="#" class="logo">
-          <img src="Logo_NIKE.svg.png" width="138" height="28" alt="booken home">
+          <img src="assets/image/Logo_NIKE.svg.png" width="138" height="28" alt="booken home">
         </a>
 
         <div class="input-wrapper">
@@ -53,11 +55,73 @@
             <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
           </button>
 
-          <button class="header-action-btn" aria-label="user" title="User">
+          <button class="header-action-btn login-btn" aria-label="user" title="User">
             <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
           </button>
 
         </div>
+
+        <!-- Login popup -->
+         <div class="blur-bg-overlay"></div>
+        <div class="form-popup">
+          <span class="close-btn material-symbols-outlined">close</span>
+          <div class="form-box login">
+              <div class="form-details">
+                  <h2>Welcome Back</h2>
+                  <p>Please log in using your personal information to continue</p>
+              </div>
+              <div class="form-content">
+                <h2>LOGIN</h2>
+                <form action="#">
+                  <div class="input-field">
+                    <input type="text" required>
+                    <label for="text">Email</label>
+                  </div>
+                  <div class="input-field">
+                    <input type="password" required>
+                    <label for="">Password</label>
+                  </div>
+                  <a href="#" class="forgot-pass">Forgot password?</a>
+                  <button type="submit">Log in</button>
+                </form>
+                <div class="bottom-link">
+                  Don't have an ccount?
+                  <a href="" id="signup-link">Signup</a>
+                </div>
+              </div>
+          </div>
+          <div class="form-box signup">
+            <div class="form-details">
+                <h2>Create Account</h2>
+                <p>To become part of our community, please sign up using your personal imformation</p>
+            </div>
+            <div class="form-content">
+              <h2>SIGNUP</h2>
+              <form action="#">
+                <div class="input-field">
+                  <input type="text" required>
+                  <label>Enter your Email</label>
+                </div>
+                <div class="input-field">
+                  <input type="password" required>
+                  <label for="">Create Password</label>
+                </div>
+                <div class="policy-text">
+                  <input type="checkbox" id="policy">
+                  <label for="policy">
+                    I agree to the 
+                    <a href="">Terms and Conditions</a>
+                  </label>
+                </div>
+                <button type="submit">Sign up</button>
+              </form>
+              <div class="bottom-link">
+                Already have an ccount?
+                <a href="" id="login-link">Login</a>
+              </div>
+            </div>
+        </div>
+      </div>
 
       </div>
     </div>
@@ -156,7 +220,7 @@
           </div>
 
           <figure class="hero-banner">
-            <img src="shoes.png" width="475" height="600" alt="hero banner" class="w-100">
+            <img src="assets/image/shoes.png" width="475" height="600" alt="hero banner" class="w-100">
           </figure>
 
         </div>
@@ -179,7 +243,7 @@
               <div class="feature-card">
 
                 <div class="card-icon">
-                  <img src="feature-1.png" width="100" height="100" loading="lazy" alt="feature icon"
+                  <img src="assets/image/feature-1.png" width="100" height="100" loading="lazy" alt="feature icon"
                     class="w-100">
                 </div>
 
@@ -196,7 +260,7 @@
               <div class="feature-card">
 
                 <div class="card-icon">
-                  <img src="feature-2.png" width="100" height="100" loading="lazy" alt="feature icon"
+                  <img src="assets/image/feature-2.png" width="100" height="100" loading="lazy" alt="feature icon"
                     class="w-100">
                 </div>
 
@@ -213,7 +277,7 @@
               <div class="feature-card">
 
                 <div class="card-icon">
-                  <img src="feature-3.png" width="100" height="100" loading="lazy" alt="feature icon"
+                  <img src="assets/image/feature-3.png" width="100" height="100" loading="lazy" alt="feature icon"
                     class="w-100">
                 </div>
 
@@ -230,7 +294,7 @@
               <div class="feature-card">
 
                 <div class="card-icon">
-                  <img src="feature-4.png" width="100" height="100" loading="lazy" alt="feature icon"
+                  <img src="assets/image/feature-4.png" width="100" height="100" loading="lazy" alt="feature icon"
                     class="w-100">
                 </div>
 
@@ -274,7 +338,7 @@
                 <span class="card-badge">New</span>
 
                 <div class="card-banner img-holder" style="--width: 384; --height: 480;">
-                  <img src="product1.jpg" width="384" height="480" loading="lazy" alt="Black Night"
+                  <img src="assets/image/product1.jpg" width="384" height="480" loading="lazy" alt="Black Night"
                     class="img-cover">
 
                   <div class="card-action">
@@ -323,7 +387,7 @@
               <div class="product-card">
 
                 <div class="card-banner img-holder" style="--width: 384; --height: 480;">
-                  <img src="product1.jpg" width="384" height="480" loading="lazy"
+                  <img src="assets/image/product1.jpg" width="384" height="480" loading="lazy"
                     alt="About The First Night" class="img-cover">
 
                   <div class="card-action">
@@ -372,7 +436,7 @@
               <div class="product-card">
 
                 <div class="card-banner img-holder" style="--width: 384; --height: 480;">
-                  <img src="product1.jpg" width="384" height="480" loading="lazy" 
+                  <img src="assets/image/product1.jpg" width="384" height="480" loading="lazy" 
                     class="img-cover">
 
                   <div class="card-action">
@@ -421,7 +485,7 @@
               <div class="product-card">
 
                 <div class="card-banner img-holder" style="--width: 384; --height: 480;">
-                  <img src="product1.jpg" width="384" height="480" loading="lazy"
+                  <img src="assets/image/product1.jpg" width="384" height="480" loading="lazy"
                     class="img-cover">
 
                   <div class="card-action">
@@ -470,7 +534,7 @@
               <div class="product-card">
 
                 <div class="card-banner img-holder" style="--width: 384; --height: 480;">
-                  <img src="product1.jpg" width="384" height="480" loading="lazy" class="img-cover">
+                  <img src="assets/image/product1.jpg" width="384" height="480" loading="lazy" class="img-cover">
 
                   <div class="card-action">
 
@@ -518,7 +582,7 @@
               <div class="product-card">
 
                 <div class="card-banner img-holder" style="--width: 384; --height: 480;">
-                  <img src="product1.jpg" width="384" height="480" loading="lazy" 
+                  <img src="assets/image/product1.jpg" width="384" height="480" loading="lazy" 
                     class="img-cover">
 
                   <div class="card-action">
@@ -567,7 +631,7 @@
               <div class="product-card">
 
                 <div class="card-banner img-holder" style="--width: 384; --height: 480;">
-                  <img src="product1.jpg" width="384" height="480" loading="lazy"
+                  <img src="assets/image/product1.jpg" width="384" height="480" loading="lazy"
                      class="img-cover">
 
                   <div class="card-action">
@@ -616,7 +680,7 @@
               <div class="product-card">
 
                 <div class="card-banner img-holder" style="--width: 384; --height: 480;">
-                  <img src="product1.jpg" width="384" height="480" loading="lazy" 
+                  <img src="assets/image/product1.jpg" width="384" height="480" loading="lazy" 
                     class="img-cover">
 
                   <div class="card-action">
@@ -758,7 +822,7 @@
               <div class="product-card">
 
                 <div class="card-banner img-holder" style="--width: 384; --height: 480;">
-                  <img src="product1.jpg" width="384" height="480" loading="lazy" 
+                  <img src="assets/image/product1.jpg" width="384" height="480" loading="lazy" 
                     class="img-cover">
 
                   <div class="card-action">
@@ -807,7 +871,7 @@
               <div class="product-card">
 
                 <div class="card-banner img-holder" style="--width: 384; --height: 480;">
-                  <img src="product1.jpg" width="384" height="480" loading="lazy" 
+                  <img src="assets/image/product1.jpg" width="384" height="480" loading="lazy" 
                     class="img-cover">
 
                   <div class="card-action">
@@ -856,7 +920,7 @@
               <div class="product-card">
 
                 <div class="card-banner img-holder" style="--width: 384; --height: 480;">
-                  <img src="product1.jpg" width="384" height="480" loading="lazy" 
+                  <img src="assets/image/product1.jpg" width="384" height="480" loading="lazy" 
                     class="img-cover">
 
                   <div class="card-action">
@@ -905,7 +969,7 @@
               <div class="product-card">
 
                 <div class="card-banner img-holder" style="--width: 384; --height: 480;">
-                  <img src="product1.jpg" width="384" height="480" loading="lazy"
+                  <img src="assets/image/product1.jpg" width="384" height="480" loading="lazy"
                     class="img-cover">
 
                   <div class="card-action">
@@ -954,7 +1018,7 @@
               <div class="product-card">
 
                 <div class="card-banner img-holder" style="--width: 384; --height: 480;">
-                  <img src="product1.jpg" width="384" height="480" loading="lazy"
+                  <img src="assets/image/product1.jpg" width="384" height="480" loading="lazy"
                      class="img-cover">
 
                   <div class="card-action">
@@ -1003,7 +1067,7 @@
               <div class="product-card">
 
                 <div class="card-banner img-holder" style="--width: 384; --height: 480;">
-                  <img src="product1.jpg" width="384" height="480" loading="lazy" 
+                  <img src="assets/image/product1.jpg" width="384" height="480" loading="lazy" 
                     class="img-cover">
 
                   <div class="card-action">
@@ -1052,7 +1116,7 @@
               <div class="product-card">
 
                 <div class="card-banner img-holder" style="--width: 384; --height: 480;">
-                  <img src="product1.jpg" width="384" height="480" loading="lazy" 
+                  <img src="assets/image/product1.jpg" width="384" height="480" loading="lazy" 
                     class="img-cover">
 
                   <div class="card-action">
@@ -1101,7 +1165,7 @@
               <div class="product-card">
 
                 <div class="card-banner img-holder" style="--width: 384; --height: 480;">
-                  <img src="product1.jpg" width="384" height="480" loading="lazy" 
+                  <img src="assets/image/product1.jpg" width="384" height="480" loading="lazy" 
                     class="img-cover">
 
                   <div class="card-action">
@@ -1174,7 +1238,7 @@
               <div class="blog-card">
 
                 <figure class="card-banner img-holder" style="--width: 600; --height: 400;">
-                  <img src="blog.webp" width="600" height="400" loading="lazy"
+                  <img src="assets/image/blog.webp" width="600" height="400" loading="lazy"
                      class="img-cover">
                 </figure>
 
@@ -1211,7 +1275,7 @@
               <div class="blog-card">
 
                 <figure class="card-banner img-holder" style="--width: 600; --height: 400;">
-                  <img src="blog.webp" width="600" height="400" loading="lazy"
+                  <img src="assets/image/blog.webp" width="600" height="400" loading="lazy"
                      class="img-cover">
                 </figure>
 
@@ -1248,7 +1312,7 @@
               <div class="blog-card">
 
                 <figure class="card-banner img-holder" style="--width: 600; --height: 400;">
-                  <img src="blog.webp" width="600" height="400" loading="lazy"
+                  <img src="assets/image/blog.webp" width="600" height="400" loading="lazy"
                      class="img-cover">
                 </figure>
 
@@ -1305,7 +1369,7 @@
         <div class="footer-brand">
 
           <a href="#" class="logo">
-            <img src="Logo_NIKE.svg.png" width="138" height="28" alt="booken home">
+            <img src="assets/image/Logo_NIKE.svg.png" width="138" height="28" alt="booken home">
           </a>
 
           <p class="footer-text">
@@ -1441,7 +1505,7 @@
       <div class="container">
 
 
-        <img src="payment-mehtod.png" width="311" height="30" loading="lazy" alt="Payment method"
+        <img src="assets/image/payment-mehtod.png" width="311" height="30" loading="lazy" alt="Payment method"
           class="w-100">
 
       </div>
