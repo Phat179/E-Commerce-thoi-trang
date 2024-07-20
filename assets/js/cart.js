@@ -30,7 +30,7 @@ const addDataToHTML = () => {
             <div onclick="window.location.href='sproduct.html'">
             <img src="${product.image}" alt="">
                 <div class="des">
-                    <span>adidas</span>
+                    <span>zara</span>
                     <h5>${product.name}</h5>
                     <div class="star">
                         <i class="material-icons">star</i>
