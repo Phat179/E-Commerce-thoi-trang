@@ -6,19 +6,20 @@
     <title>Cartoon Nature T-Shirt</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <script src="https://kit.fontawesome.com/0b9558d756.js" ></script>
     <link rel="icon" type="image/x-icon" href="assets/image/logo.png">
 </head>
 <body>
     <section id="header">
-        <a href="index.html"><img src="assets/image/logo.png" width="150px" height="60px" class="logo" alt=""></a>
+        <a href="loggedindex.php"><img src="assets/image/logo.png" width="150px" height="60px" class="logo" alt=""></a>
         <div>
             <ul id="navbar">
-                <li><a href="index.html">Home</a></li>
-                <li><a class="active" href="shop.html">Shop</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
+              <li><a href="loggedindex.php">Trang chủ</a></li>
+              <li><a class="active" href="loggedshop.php">Shop</a></li>
+              <li><a href="loggedblog.php">Blog</a></li>
+              <li><a href="loggedabout.php">Giới thiệu</a></li>
+              <li><a href="loggedcontact.php">Liên hệ</a></li>
                 <li id="lg-bag" class="icon-cart">
                     <i class="fa-solid fa-cart-shopping"></i>
                     <span>0</span>
@@ -27,6 +28,8 @@
                 <a href="" id="close"><i class="fa-solid fa-x"></i></a>
             </ul>
         </div>
+        
+
         <div id="mobile">
             <ul>
                 <li class="icon-cart">
@@ -36,6 +39,51 @@
             </ul>
             <i id="bar" class="fas fa-outdent"></i>
         </div>
+
+        <!-- dropdown   -->
+        <div class="profile-dropdown">
+            <div onclick="toggle()" class="profile-dropdown-btn">
+              <div class="profile-img" style="background-image: url('assets/image/people/1.jpg')">
+                <i class="fa-solid fa-circle"></i>
+              </div>
+    
+              <span
+                >Phat Ng
+                <i class="fa-solid fa-angle-down"></i>
+              </span>
+            </div>
+    
+            <ul class="profile-dropdown-list">
+              <li class="profile-dropdown-list-item" onclick="window.location.href='profile.php'">
+                <a href="#">
+                  <i class="fa-regular fa-user"></i>
+                  Tài khoản
+                </a>
+              </li>
+    
+              <li class="profile-dropdown-list-item">
+                <a href="#">
+                  <i class="fa-solid fa-sliders"></i>
+                  Cài đặt
+                </a>
+              </li>
+    
+              <li class="profile-dropdown-list-item">
+                <a href="#">
+                  <i class="fa-regular fa-circle-question"></i>
+                  Hỗ trợ
+                </a>
+              </li>
+              <hr />
+    
+              <li class="profile-dropdown-list-item" onclick="window.location.href='index.php'">
+                <a href="#">
+                  <i class="fa-solid fa-arrow-right-from-bracket" ></i>
+                  Đăng xuất
+                </a>
+              </li>
+            </ul>
+          </div>
     </section>
 
     <section class="section-p1" id="prodetails">
@@ -165,19 +213,19 @@
         </div>
         <div class="btn">
             <button class="close">Đóng</button>
-            <button class="checkout" onclick="window.location.href='checkout.html'">Thanh Toán</button>
+            <button class="checkout" onclick="window.location.href='checkout.php'">Thanh Toán</button>
         </div>
     </div>
 
     <footer class="section-p1">
         <div class="col">
             <img class="logo" src="assets/image/logo.png" width="150px" height="60px" alt="">
-            <h4>Contacts</h4>
-            <p><strong>Address: </strong>P. Nguyễn Trác, Yên Nghĩa, Hà Đông, Hà Nội</p>
-            <p><strong>Phone: </strong> 0984663477</p>
-            <p><strong>Working hours: </strong>08:00 - 16:00, Mon - Sat</p>
+            <h4>Liên hệ</h4>
+            <p><strong>Địa chỉ: </strong>P. Nguyễn Trác, Yên Nghĩa, Hà Đông, Hà Nội</p>
+            <p><strong>Diện thoại: </strong> 0984663477</p>
+            <p><strong>Giờ làm việc: </strong>08:00 - 16:00, Mon - Sat</p>
             <div class="follow">
-                <h4>Follow us</h4>
+                <h4>Theo dõi</h4>
                 <div class="icon">
                     <i class="fa-brands fa-facebook-f"></i>
                     <i class="fa-brands fa-twitter"></i>
@@ -190,30 +238,30 @@
 
         <div class="col">
             <h4>About</h4>
-            <a href="">About Us</a>
-            <a href="">Delivery Information</a>
-            <a href="">Privacy Policy</a>
-            <a href="">Terms & Conditions</a>
-            <a href="">Contact Us</a>
+            <a href="">Về chúng tôi</a>
+            <a href="">Thông tin đơn hàng</a>
+            <a href="">Chính sách bảo mật</a>
+            <a href="">Điều khoản và chính sách</a>
+            <a href="">Liên hệ với chúng tôi</a>
         </div>
 
         <div class="col">
-            <h4>My Account</h4>
-            <a href="">Sign in</a>
-            <a href="">View Cart</a>
-            <a href="">My Wishlist</a>
-            <a href="">Track My Order</a>
-            <a href="">Help</a>
+            <h4>Tài khoản của tôi</h4>
+            <a href="index.php">Đăng xuất</a>
+            <a href="">Xem giỏ hàng</a>
+            <a href="">Sản phẩm đăng ký</a>
+            <a href="">Theo dõi đơn hàng</a>
+            <a href="">Hỗ trợ</a>
         </div>
         
         <div class="col install">
-            <h4>Install App</h4>
-            <p>From App Store or Google Play</p>
+            <h4>Tải ứng dụng</h4>
+            <p>Từ App Store hoặc Google Play</p>
             <div class="row">
                 <img src="assets/image/app.jpg" alt="">
                 <img src="assets/image/play.jpg" alt="">
             </div>
-            <p>Secured Payment Gateways</p>
+            <p>Cổng Thanh Toán Được Bảo Mật</p>
             <img src="assets/image/pay.png" alt="">
         </div>
 
@@ -221,6 +269,8 @@
             <p>© 2024, Nguyen The Phat - CNTT-VJ Phenikaa</p>
         </div>
     </footer>
+
+
 
     <script>
         var MainImg = document.getElementById("MainImg");
@@ -241,7 +291,7 @@
     </script>
     
 
-
+    <script  src="assets/js/dropdown.js"></script>
     <script  src="assets/js/cart.js"></script>
     <script  src="assets/js/script.js"></script>
 </body>

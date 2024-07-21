@@ -6,7 +6,7 @@ function validateForm(event) {
     var password = document.getElementById('passwordInput').value;
 
     if (email.trim() !== '' && password.trim() !== '') {
-        window.location.href = 'loggedindex.html';
+        window.location.href = 'loggedindex.php';
     } else {
         alert('Please fill in both email and password fields.');
     }

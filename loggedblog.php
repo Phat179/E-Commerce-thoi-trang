@@ -6,19 +6,20 @@
     <title>Blogs</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <script src="https://kit.fontawesome.com/0b9558d756.js" ></script>
     <link rel="icon" type="image/x-icon" href="assets/image/logo.png">
 </head>
 <body>
     <section id="header">
-        <a href="index.html"><img src="assets/image/logo.png" width="150px" height="60px" class="logo" alt=""></a>
+        <a href="loggedindex.php"><img src="assets/image/logo.png" width="150px" height="60px" class="logo" alt=""></a>
         <div>
             <ul id="navbar">
-                <li><a href="index.html">Trang chủ</a></li>
-                <li><a href="shop.html">Shop</a></li>
-                <li><a class="active" href="blog.html">Blog</a></li>
-                <li><a href="about.html">Giới thiệu</a></li>
-                <li><a href="contact.html">Liên hệ</a></li>
+                <li><a href="loggedindex.php">Trang chủ</a></li>
+                <li><a href="loggedshop.php">Shop</a></li>
+                <li><a class="active" href="loggedblog.php">Blog</a></li>
+                <li><a href="loggedabout.php">Giới thiệu</a></li>
+                <li><a href="loggedcontact.php">Liên hệ</a></li>
                 <li id="lg-bag" class="icon-cart">
                     <i class="fa-solid fa-cart-shopping"></i>
                     <span>0</span>
@@ -27,6 +28,8 @@
                 <a href="" id="close"><i class="fa-solid fa-x"></i></a>
             </ul>
         </div>
+        
+
         <div id="mobile">
             <ul>
                 <li class="icon-cart">
@@ -36,6 +39,51 @@
             </ul>
             <i id="bar" class="fas fa-outdent"></i>
         </div>
+
+        <!-- dropdown   -->
+        <div class="profile-dropdown">
+            <div onclick="toggle()" class="profile-dropdown-btn">
+              <div class="profile-img" style="background-image: url('assets/image/people/1.jpg')">
+                <i class="fa-solid fa-circle"></i>
+              </div>
+    
+              <span
+                >Phat Ng
+                <i class="fa-solid fa-angle-down"></i>
+              </span>
+            </div>
+    
+            <ul class="profile-dropdown-list">
+              <li class="profile-dropdown-list-item" onclick="window.location.href='profile.php'">
+                <a href="#">
+                  <i class="fa-regular fa-user"></i>
+                  Tài khoản
+                </a>
+              </li>
+    
+              <li class="profile-dropdown-list-item">
+                <a href="#">
+                  <i class="fa-solid fa-sliders"></i>
+                  Cài đặt
+                </a>
+              </li>
+    
+              <li class="profile-dropdown-list-item">
+                <a href="#">
+                  <i class="fa-regular fa-circle-question"></i>
+                  Hỗ trợ
+                </a>
+              </li>
+              <hr />
+    
+              <li class="profile-dropdown-list-item" onclick="window.location.href='index.php'">
+                <a href="#">
+                  <i class="fa-solid fa-arrow-right-from-bracket" ></i>
+                  Đăng xuất
+                </a>
+              </li>
+            </ul>
+          </div>
     </section>
     
     <section id="page-header" style="background-image: url('assets/image/b19.jpg')">
@@ -50,7 +98,7 @@
             <div class="blog-details">
                 <h4>Áo Hoodie Cotton-Jersey Khóa Kéo</h4>
                 <p>Áo Hoodie Cotton-Jersey Có Khóa Kéo: Sự kết hợp hoàn hảo giữa phong cách và tiện ích, với chất liệu cotton-jersey mềm mại và thiết kế khóa kéo tiện lợi...</p>
-                <a href="singleblog.html">ĐỌC THÊM</a>
+                <a href="singleblog.php">ĐỌC THÊM</a>
             </div>
             <h1>23/06</h1>
         </div>
@@ -124,7 +172,7 @@
         </div>
         <div class="btn">
             <button class="close">Đóng</button>
-            <button class="checkout" onclick="window.location.href='checkout.html'">Thanh Toán</button>
+            <button class="checkout" onclick="window.location.href='checkout.php'">Thanh Toán</button>
         </div>
     </div>
 
@@ -158,7 +206,7 @@
 
         <div class="col">
             <h4>Tài khoản của tôi</h4>
-            <a href="">Đăng nhập</a>
+            <a href="index.php">Đăng xuất</a>
             <a href="">Xem giỏ hàng</a>
             <a href="">Sản phẩm đăng ký</a>
             <a href="">Theo dõi đơn hàng</a>
@@ -183,7 +231,7 @@
 
     
 
-
+    <script  src="assets/js/dropdown.js"></script>
     <script  src="assets/js/cart.js"></script>
     <script  src="assets/js/script.js"></script>
 </body>

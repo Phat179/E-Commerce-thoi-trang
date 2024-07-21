@@ -12,14 +12,14 @@
 </head>
 <body class="">
     <section id="header">
-        <a href="loggedindex.html"><img src="assets/image/logo.png" width="150px" height="60px" class="logo" alt=""></a>
+        <a href="loggedindex.php"><img src="assets/image/logo.png" width="150px" height="60px" class="logo" alt=""></a>
         <div>
             <ul id="navbar">
-                <li><a class="active" href="loggedindex.html">Trang chủ</a></li>
-                <li><a href="loggedshop.html">Shop</a></li>
-                <li><a href="loggedblog.html">Blog</a></li>
-                <li><a href="loggedabout.html">Giới thiệu</a></li>
-                <li><a href="loggedcontact.html">Liên hệ</a></li>
+                <li><a class="active" href="loggedindex.php">Trang chủ</a></li>
+                <li><a href="loggedshop.php">Shop</a></li>
+                <li><a href="loggedblog.php">Blog</a></li>
+                <li><a href="loggedabout.php">Giới thiệu</a></li>
+                <li><a href="loggedcontact.php">Liên hệ</a></li>
                 <li id="lg-bag" class="icon-cart">
                     <i class="fa-solid fa-cart-shopping"></i>
                     <span>0</span>
@@ -54,7 +54,7 @@
             </div>
     
             <ul class="profile-dropdown-list">
-              <li class="profile-dropdown-list-item" onclick="window.location.href='profile.html'">
+              <li class="profile-dropdown-list-item" onclick="window.location.href='profile.php'">
                 <a href="#">
                   <i class="fa-regular fa-user"></i>
                   Tài khoản
@@ -76,7 +76,7 @@
               </li>
               <hr />
     
-              <li class="profile-dropdown-list-item" onclick="window.location.href='index.html'">
+              <li class="profile-dropdown-list-item" onclick="window.location.href='index.php'">
                 <a href="#">
                   <i class="fa-solid fa-arrow-right-from-bracket" ></i>
                   Đăng xuất
@@ -268,7 +268,7 @@
         <h2>Hàng mới về</h2>
         <p>Bộ sưu tầm mùa hè!</p>
         <div class="pro-container">
-            <div class="pro" onclick="window.location.href='sproduct.html'">
+            <div class="pro" onclick="window.location.href='sproduct.php'">
                 <img src="assets/image/n1.jpg" alt="">
                 <div class="des">
                     <span>zara</span>
@@ -284,7 +284,7 @@
                 </div>
                 <i id="cart" class="material-icons addCart">shop</i>
             </div>
-            <div class="pro" onclick="window.location.href='sproduct.html'">
+            <div class="pro" onclick="window.location.href='sproduct.php'">
                 <img src="assets/image/n2.jpg" alt="">
                 <div class="des">
                     <span>zara</span>
@@ -300,7 +300,7 @@
                 </div>
                 <a href=""><i id="cart" class="material-icons">shop</i></a>
             </div>
-            <div class="pro" onclick="window.location.href='sproduct.html'">
+            <div class="pro" onclick="window.location.href='sproduct.php'">
                 <img src="assets/image/n3.jpg" alt="">
                 <div class="des">
                     <span>zara</span>
@@ -316,7 +316,7 @@
                 </div>
                 <a href=""><i id="cart" class="material-icons">shop</i></a>
             </div>
-            <div class="pro" onclick="window.location.href='sproduct.html'">
+            <div class="pro" onclick="window.location.href='sproduct.php'">
                 <img src="assets/image/n4.jpg" alt="">
                 <div class="des">
                     <span>zara</span>
@@ -332,7 +332,7 @@
                 </div>
                 <a href=""><i id="cart" class="material-icons">shop</i></a>
             </div>
-            <div class="pro" onclick="window.location.href='sproduct.html'">
+            <div class="pro" onclick="window.location.href='sproduct.php'">
                 <img src="assets/image/n5.jpg" alt="">
                 <div class="des">
                     <span>zara</span>
@@ -348,7 +348,7 @@
                 </div>
                 <a href=""><i id="cart" class="material-icons">shop</i></a>
             </div>
-            <div class="pro" onclick="window.location.href='sproduct.html'">
+            <div class="pro" onclick="window.location.href='sproduct.php'">
                 <img src="assets/image/n6.jpg" alt="">
                 <div class="des">
                     <span>zara</span>
@@ -364,7 +364,7 @@
                 </div>
                 <a href=""><i id="cart" class="material-icons">shop</i></a>
             </div>
-            <div class="pro" onclick="window.location.href='sproduct.html'">
+            <div class="pro" onclick="window.location.href='sproduct.php'">
                 <img src="assets/image/n7.jpg" alt="">
                 <div class="des">
                     <span>zara</span>
@@ -380,7 +380,7 @@
                 </div>
                 <a href=""><i id="cart" class="material-icons">shop</i></a>
             </div>
-            <div class="pro" onclick="window.location.href='sproduct.html'">
+            <div class="pro" onclick="window.location.href='sproduct.php'">
                 <img src="assets/image/n8.jpg" alt="">
                 <div class="des">
                     <span>zara</span>
@@ -474,7 +474,7 @@
 
         <div class="col">
             <h4>Tài khoản của tôi</h4>
-            <a href="index.html">Đăng xuất</a>
+            <a href="index.php">Đăng xuất</a>
             <a href="">Xem giỏ hàng</a>
             <a href="">Sản phẩm đăng ký</a>
             <a href="">Theo dõi đơn hàng</a>
@@ -498,9 +498,9 @@
     </footer>
 
     
-
+    <script  src="assets/js/script.js"></script>
     <script  src="assets/js/dropdown.js"></script>
     <script  src="assets/js/cart.js"></script>
-    <script  src="assets/js/script.js"></script>
+    >
 </body>
 </html>

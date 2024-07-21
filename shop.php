@@ -11,14 +11,14 @@
 </head>
 <body>
     <section id="header">
-        <a href="index.html"><img src="assets/image/logo.png" width="150px" height="60px" class="logo" alt=""></a>
+        <a href="index.php"><img src="assets/image/logo.png" width="150px" height="60px" class="logo" alt=""></a>
         <div>
             <ul id="navbar">
-                <li><a href="index.html">Trang chủ</a></li>
-                <li><a class="active" href="shop.html">Shop</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="about.html">Giới thiệu</a></li>
-                <li><a href="contact.html">Liên hệ</a></li>
+                <li><a href="index.php">Trang chủ</a></li>
+                <li><a class="active" href="shop.php">Shop</a></li>
+                <li><a href="blog.php">Blog</a></li>
+                <li><a href="about.php">Giới thiệu</a></li>
+                <li><a href="contact.php">Liên hệ</a></li>
                 <li id="lg-bag" class="icon-cart">
                     <i class="fa-solid fa-cart-shopping"></i>
                     <span>0</span>
@@ -46,7 +46,7 @@
 
     <section class="section-p1" id="product1">
         <div class="pro-container">
-            <div class="pro" onclick="window.location.href='sproduct.html'">
+            <div class="pro" onclick="window.location.href='sproduct.php'">
                 <img src="assets/image/f1.jpg" alt="">
                 <div class="des">
                     <span>adidas</span>
@@ -62,7 +62,7 @@
                 </div>
                 <a href=""><i id="cart" class="material-icons">shop</i></a>
             </div>
-            <div class="pro" onclick="window.location.href='sproduct.html'">
+            <div class="pro" onclick="window.location.href='sproduct.php'">
                 <img src="assets/image/f2.jpg" alt="">
                 <div class="des">
                     <span>adidas</span>
@@ -78,7 +78,7 @@
                 </div>
                 <a href=""><i id="cart" class="material-icons">shop</i></a>
             </div>
-            <div class="pro" onclick="window.location.href='sproduct.html'">
+            <div class="pro" onclick="window.location.href='sproduct.php'">
                 <img src="assets/image/f3.jpg" alt="">
                 <div class="des">
                     <span>adidas</span>
@@ -94,7 +94,7 @@
                 </div>
                 <a href=""><i id="cart" class="material-icons">shop</i></a>
             </div>
-            <div class="pro" onclick="window.location.href='sproduct.html'">
+            <div class="pro" onclick="window.location.href='sproduct.php'">
                 <img src="assets/image/f4.jpg" alt="">
                 <div class="des">
                     <span>adidas</span>
@@ -110,7 +110,7 @@
                 </div>
                 <a href=""><i id="cart" class="material-icons">shop</i></a>
             </div>
-            <div class="pro" onclick="window.location.href='sproduct.html'">
+            <div class="pro" onclick="window.location.href='sproduct.php'">
                 <img src="assets/image/f5.jpg" alt="">
                 <div class="des">
                     <span>adidas</span>
@@ -126,7 +126,7 @@
                 </div>
                 <a href=""><i id="cart" class="material-icons">shop</i></a>
             </div>
-            <div class="pro" onclick="window.location.href='sproduct.html'">
+            <div class="pro" onclick="window.location.href='sproduct.php'">
                 <img src="assets/image/f6.jpg" alt="">
                 <div class="des">
                     <span>adidas</span>
@@ -142,7 +142,7 @@
                 </div>
                 <a href=""><i id="cart" class="material-icons">shop</i></a>
             </div>
-            <div class="pro" onclick="window.location.href='sproduct.html'">
+            <div class="pro" onclick="window.location.href='sproduct.php'">
                 <img src="assets/image/f7.jpg" alt="">
                 <div class="des">
                     <span>adidas</span>
@@ -158,7 +158,7 @@
                 </div>
                 <a href=""><i id="cart" class="material-icons">shop</i></a>
             </div>
-            <div class="pro" onclick="window.location.href='sproduct.html'">
+            <div class="pro" onclick="window.location.href='sproduct.php'">
                 <img src="assets/image/f8.jpg" alt="">
                 <div class="des">
                     <span>adidas</span>
@@ -175,7 +175,7 @@
                 <a href=""><i id="cart" class="material-icons">shop</i></a>
             </div>
 
-            <div class="pro" onclick="window.location.href='sproduct.html'">
+            <div class="pro" onclick="window.location.href='sproduct.php'">
                 <img src="assets/image/n1.jpg" alt="">
                 <div class="des">
                     <span>adidas</span>
@@ -191,7 +191,7 @@
                 </div>
                 <a href=""><i id="cart" class="material-icons">shop</i></a>
             </div>
-            <div class="pro" onclick="window.location.href='sproduct.html'">
+            <div class="pro" onclick="window.location.href='sproduct.php'">
                 <img src="assets/image/n2.jpg" alt="">
                 <div class="des">
                     <span>adidas</span>
@@ -207,7 +207,7 @@
                 </div>
                 <a href=""><i id="cart" class="material-icons">shop</i></a>
             </div>
-            <div class="pro" onclick="window.location.href='sproduct.html'">
+            <div class="pro" onclick="window.location.href='sproduct.php'">
                 <img src="assets/image/n3.jpg" alt="">
                 <div class="des">
                     <span>adidas</span>
@@ -223,7 +223,7 @@
                 </div>
                 <a href=""><i id="cart" class="material-icons">shop</i></a>
             </div>
-            <div class="pro" onclick="window.location.href='sproduct.html'">
+            <div class="pro" onclick="window.location.href='sproduct.php'">
                 <img src="assets/image/n4.jpg" alt="">
                 <div class="des">
                     <span>adidas</span>
@@ -239,7 +239,7 @@
                 </div>
                 <a href=""><i id="cart" class="material-icons">shop</i></a>
             </div>
-            <div class="pro" onclick="window.location.href='sproduct.html'">
+            <div class="pro" onclick="window.location.href='sproduct.php'">
                 <img src="assets/image/n5.jpg" alt="">
                 <div class="des">
                     <span>adidas</span>
@@ -255,7 +255,7 @@
                 </div>
                 <a href=""><i id="cart" class="material-icons">shop</i></a>
             </div>
-            <div class="pro" onclick="window.location.href='sproduct.html'">
+            <div class="pro" onclick="window.location.href='sproduct.php'">
                 <img src="assets/image/n6.jpg" alt="">
                 <div class="des">
                     <span>adidas</span>
@@ -271,7 +271,7 @@
                 </div>
                 <a href=""><i id="cart" class="material-icons">shop</i></a>
             </div>
-            <div class="pro" onclick="window.location.href='sproduct.html'">
+            <div class="pro" onclick="window.location.href='sproduct.php'">
                 <img src="assets/image/n7.jpg" alt="">
                 <div class="des">
                     <span>adidas</span>
@@ -287,7 +287,7 @@
                 </div>
                 <a href=""><i id="cart" class="material-icons">shop</i></a>
             </div>
-            <div class="pro" onclick="window.location.href='sproduct.html'">
+            <div class="pro" onclick="window.location.href='sproduct.php'">
                 <img src="assets/image/n8.jpg" alt="">
                 <div class="des">
                     <span>adidas</span>
@@ -330,7 +330,7 @@
         </div>
         <div class="btn">
             <button class="close">Đóng</button>
-            <button class="checkout" onclick="window.location.href='checkout.html'">Thanh Toán</button>
+            <button class="checkout" onclick="window.location.href='checkout.php'">Thanh Toán</button>
         </div>
     </div>
 

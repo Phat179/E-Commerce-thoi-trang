@@ -27,7 +27,7 @@ const addDataToHTML = () => {
             newProduct.classList.add('pro');
             newProduct.dataset.id = product.id;
             newProduct.innerHTML = `
-            <div onclick="window.location.href='sproduct.html'">
+            <div onclick="window.location.href='sproduct.php'">
             <img src="${product.image}" alt="">
                 <div class="des">
                     <span>zara</span>

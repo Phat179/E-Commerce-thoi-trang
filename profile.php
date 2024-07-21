@@ -16,14 +16,14 @@
 
 <body>
     <section id="header">
-        <a href="loggedindex.html"><img src="assets/image/logo.png" width="150px" height="60px" class="logo" alt=""></a>
+        <a href="loggedindex.php"><img src="assets/image/logo.png" width="150px" height="60px" class="logo" alt=""></a>
         <div>
             <ul id="navbar">
-                <li><a href="loggedindex.html">Home</a></li>
-                <li><a href="loggedshop.html">Shop</a></li>
-                <li><a href="loggedblog.html">Blog</a></li>
-                <li><a href="loggedabout.html">About</a></li>
-                <li><a href="loggedcontact.html">Contact</a></li>
+                <li><a href="loggedindex.php">Home</a></li>
+                <li><a href="loggedshop.php">Shop</a></li>
+                <li><a href="loggedblog.php">Blog</a></li>
+                <li><a href="loggedabout.php">About</a></li>
+                <li><a href="loggedcontact.php">Contact</a></li>
                 <li id="lg-bag" class="icon-cart">
                     <i class="fa-solid fa-cart-shopping"></i>
                     <span>0</span>
@@ -58,7 +58,7 @@
             </div>
     
             <ul class="profile-dropdown-list">
-              <li class="profile-dropdown-list-item" onclick="window.location.href='profile.html'">
+              <li class="profile-dropdown-list-item" onclick="window.location.href='profile.php'">
                 <a href="#">
                   <i class="fa-regular fa-user"></i>
                   Tài khoản
@@ -80,7 +80,7 @@
               </li>
               <hr />
     
-              <li class="profile-dropdown-list-item" onclick="window.location.href='index.html'">
+              <li class="profile-dropdown-list-item" onclick="window.location.href='index.php'">
                 <a href="#">
                   <i class="fa-solid fa-arrow-right-from-bracket" ></i>
                   Đăng xuất
@@ -134,7 +134,7 @@
                                 <div class="card-body">
                                     <div class="form-group">
                                         <label class="form-label">Username</label>
-                                        <input type="text" class="form-control mb-1" value="Phat">
+                                        <input type="text" class="form-control mb-1" value="Phat Ng">
                                     </div>
                                     <div class="form-group">
                                         <label class="form-label">Name</label>
@@ -333,7 +333,7 @@ From Hanoi, Vietnam </textarea>
                 </div>
             </div>
             <div class="text-right mt-3">
-                <button type="button" class="btn btn-primary" onclick="window.location.href='loggedindex.html'">Save changes</button>&nbsp;
+                <button type="button" class="btn btn-primary" onclick="window.location.href='loggedindex.php'">Save changes</button>&nbsp;
                 <button type="button" class="btn btn-default">Cancel</button>
             </div>
         </div>

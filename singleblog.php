@@ -6,20 +6,19 @@
     <title>The Cotton-Jersey Zip-Up Hoodie</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <script src="https://kit.fontawesome.com/0b9558d756.js" ></script>
     <link rel="icon" type="image/x-icon" href="assets/image/logo.png">
 </head>
 <body>
     <section id="header">
-        <a href="loggedindex.html"><img src="assets/image/logo.png" width="150px" height="60px" class="logo" alt=""></a>
+        <a href="index.php"><img src="assets/image/logo.png" width="150px" height="60px" class="logo" alt=""></a>
         <div>
             <ul id="navbar">
-              <li><a href="loggedindex.html">Trang chủ</a></li>
-              <li><a href="loggedshop.html">Shop</a></li>
-              <li><a class="active" href="loggedblog.html">Blog</a></li>
-              <li><a href="loggedabout.html">Giới thiệu</a></li>
-              <li><a href="loggedcontact.html">Liên hệ</a></li>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="shop.php">Shop</a></li>
+                <li><a class="active" href="blog.php">Blog</a></li>
+                <li><a href="about.php">About</a></li>
+                <li><a href="contact.php">Contact</a></li>
                 <li id="lg-bag" class="icon-cart">
                     <i class="fa-solid fa-cart-shopping"></i>
                     <span>0</span>
@@ -28,8 +27,6 @@
                 <a href="" id="close"><i class="fa-solid fa-x"></i></a>
             </ul>
         </div>
-        
-
         <div id="mobile">
             <ul>
                 <li class="icon-cart">
@@ -38,51 +35,6 @@
                 </li>
             </ul>
             <i id="bar" class="fas fa-outdent"></i>
-        </div>
-
-        <!-- dropdown   -->
-        <div class="profile-dropdown">
-          <div onclick="toggle()" class="profile-dropdown-btn">
-            <div class="profile-img" style="background-image: url('assets/image/people/1.jpg')">
-              <i class="fa-solid fa-circle"></i>
-            </div>
-  
-            <span
-              >Phat Ng
-              <i class="fa-solid fa-angle-down"></i>
-            </span>
-          </div>
-  
-          <ul class="profile-dropdown-list">
-            <li class="profile-dropdown-list-item" onclick="window.location.href='profile.html'">
-              <a href="#">
-                <i class="fa-regular fa-user"></i>
-                Tài khoản
-              </a>
-            </li>
-  
-            <li class="profile-dropdown-list-item">
-              <a href="#">
-                <i class="fa-solid fa-sliders"></i>
-                Cài đặt
-              </a>
-            </li>
-  
-            <li class="profile-dropdown-list-item">
-              <a href="#">
-                <i class="fa-regular fa-circle-question"></i>
-                Hỗ trợ
-              </a>
-            </li>
-            <hr />
-  
-            <li class="profile-dropdown-list-item" onclick="window.location.href='index.html'">
-              <a href="#">
-                <i class="fa-solid fa-arrow-right-from-bracket" ></i>
-                Đăng xuất
-              </a>
-            </li>
-          </ul>
         </div>
     </section>
     
@@ -117,26 +69,24 @@
 
     <section class="section-p1 section-m1" id="newsletter" style="background-image: url('assets/image/b14.png')">
         <div class="newstext">
-          <h4>Đăng Ký Nhận Bản Tin</h4>
-          <p>Nhận cập nhật qua email về cửa hàng mới nhất của chúng tôi và <span>các ưu đãi đặc biệt.</span></p>
-      </div>
-      <div class="form">
-          <input type="text" placeholder="Điền email của bạn vào đây">
-          <button class="normal">Đăng ký</button>
-      </div>
-  </section>
+            <h4>Đăng Ký Nhận Bản Tin</h4>
+            <p>Nhận cập nhật qua email về cửa hàng mới nhất của chúng tôi và <span>các ưu đãi đặc biệt.</span></p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Điền email của bạn vào đây">
+            <button class="normal">Đăng ký</button>
+        </div>
+    </section>
 
-
-    <!-- footer  -->
     <footer class="section-p1">
         <div class="col">
             <img class="logo" src="assets/image/logo.png" width="150px" height="60px" alt="">
-            <h4>Liên hệ</h4>
-            <p><strong>Địa chỉ: </strong>P. Nguyễn Trác, Yên Nghĩa, Hà Đông, Hà Nội</p>
-            <p><strong>Diện thoại: </strong> 0984663477</p>
-            <p><strong>Giờ làm việc: </strong>08:00 - 16:00, Mon - Sat</p>
+            <h4>Contacts</h4>
+            <p><strong>Address: </strong>P. Nguyễn Trác, Yên Nghĩa, Hà Đông, Hà Nội</p>
+            <p><strong>Phone: </strong> 0984663477</p>
+            <p><strong>Working hours: </strong>08:00 - 16:00, Mon - Sat</p>
             <div class="follow">
-                <h4>Theo dõi</h4>
+                <h4>Follow us</h4>
                 <div class="icon">
                     <i class="fa-brands fa-facebook-f"></i>
                     <i class="fa-brands fa-twitter"></i>
@@ -149,30 +99,30 @@
 
         <div class="col">
             <h4>About</h4>
-            <a href="">Về chúng tôi</a>
-            <a href="">Thông tin đơn hàng</a>
-            <a href="">Chính sách bảo mật</a>
-            <a href="">Điều khoản và chính sách</a>
-            <a href="">Liên hệ với chúng tôi</a>
+            <a href="">About Us</a>
+            <a href="">Delivery Information</a>
+            <a href="">Privacy Policy</a>
+            <a href="">Terms & Conditions</a>
+            <a href="">Contact Us</a>
         </div>
 
         <div class="col">
-            <h4>Tài khoản của tôi</h4>
-            <a href="index.html">Đăng xuất</a>
-            <a href="">Xem giỏ hàng</a>
-            <a href="">Sản phẩm đăng ký</a>
-            <a href="">Theo dõi đơn hàng</a>
-            <a href="">Hỗ trợ</a>
+            <h4>My Account</h4>
+            <a href="">Sign in</a>
+            <a href="">View Cart</a>
+            <a href="">My Wishlist</a>
+            <a href="">Track My Order</a>
+            <a href="">Help</a>
         </div>
         
         <div class="col install">
-            <h4>Tải ứng dụng</h4>
-            <p>Từ App Store hoặc Google Play</p>
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
             <div class="row">
                 <img src="assets/image/app.jpg" alt="">
                 <img src="assets/image/play.jpg" alt="">
             </div>
-            <p>Cổng Thanh Toán Được Bảo Mật</p>
+            <p>Secured Payment Gateways</p>
             <img src="assets/image/pay.png" alt="">
         </div>
 
@@ -181,9 +131,18 @@
         </div>
     </footer>
 
-    
+    <div class="cartTab">
+        <h1>Giỏ hàng của bạn</h1>
+        <div class="listCart">
+            
+        </div>
+        <div class="btn">
+            <button class="close">Đóng</button>
+            <button class="checkout" onclick="window.location.href='checkout.php'">Thanh Toán</button>
+        </div>
+    </div>
 
-    <script  src="assets/js/dropdown.js"></script>
+
     <script  src="assets/js/cart.js"></script>
     <script  src="assets/js/script.js"></script>
 </body>

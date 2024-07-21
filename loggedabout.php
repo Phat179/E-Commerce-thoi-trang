@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blogs</title>
+    <title>About Us</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
@@ -12,14 +12,14 @@
 </head>
 <body>
     <section id="header">
-        <a href="loggedindex.html"><img src="assets/image/logo.png" width="150px" height="60px" class="logo" alt=""></a>
+        <a href="loggedindex.php"><img src="assets/image/logo.png" width="150px" height="60px" class="logo" alt=""></a>
         <div>
             <ul id="navbar">
-                <li><a href="loggedindex.html">Trang chủ</a></li>
-                <li><a href="loggedshop.html">Shop</a></li>
-                <li><a class="active" href="loggedblog.html">Blog</a></li>
-                <li><a href="loggedabout.html">Giới thiệu</a></li>
-                <li><a href="loggedcontact.html">Liên hệ</a></li>
+                <li><a href="loggedindex.php">Trang chủ</a></li>
+                <li><a href="loggedshop.php">Shop</a></li>
+                <li><a href="loggedblog.php">Blog</a></li>
+                <li><a class="active" href="loggedabout.php">Giới thiệu</a></li>
+                <li><a href="loggedcontact.php">Liên hệ</a></li>
                 <li id="lg-bag" class="icon-cart">
                     <i class="fa-solid fa-cart-shopping"></i>
                     <span>0</span>
@@ -54,7 +54,7 @@
             </div>
     
             <ul class="profile-dropdown-list">
-              <li class="profile-dropdown-list-item" onclick="window.location.href='profile.html'">
+              <li class="profile-dropdown-list-item" onclick="window.location.href='profile.php'">
                 <a href="#">
                   <i class="fa-regular fa-user"></i>
                   Tài khoản
@@ -76,7 +76,7 @@
               </li>
               <hr />
     
-              <li class="profile-dropdown-list-item" onclick="window.location.href='index.html'">
+              <li class="profile-dropdown-list-item" onclick="window.location.href='index.php'">
                 <a href="#">
                   <i class="fa-solid fa-arrow-right-from-bracket" ></i>
                   Đăng xuất
@@ -86,72 +86,55 @@
           </div>
     </section>
     
-    <section id="page-header" style="background-image: url('assets/image/b19.jpg')">
-        <h2>#blog</h2>
-        <p>Đọc những bài blog về sản phẩm của chúng tôi</p>
+    <section id="page-header" style="background-image: url('assets/image/banner.png')">
+        <h2>#Gioithieu</h2>
+        <p>vài điều về chúng tôi</p>
     </section>
-    <section id="blog">
-        <div class="blog-box">
-            <div class="blog-img">
-                <img src="assets/image/b7.jpg" alt="">
-            </div>
-            <div class="blog-details">
-                <h4>Áo Hoodie Cotton-Jersey Khóa Kéo</h4>
-                <p>Áo Hoodie Cotton-Jersey Có Khóa Kéo: Sự kết hợp hoàn hảo giữa phong cách và tiện ích, với chất liệu cotton-jersey mềm mại và thiết kế khóa kéo tiện lợi...</p>
-                <a href="singleblog.html">ĐỌC THÊM</a>
-            </div>
-            <h1>23/06</h1>
-        </div>
-        <div class="blog-box">
-            <div class="blog-img">
-                <img src="assets/image/b2.jpg" alt="">
-            </div>
-            <div class="blog-details">
-                <h4>Phối đồ với kiểu tóc</h4>
-                <p>Khi lựa chọn kiểu tóc, không chỉ là vấn đề của phong cách cá nhân mà còn là cách bạn phối đồ để tạo nên một tổng thể hài hòa và ấn tượng. Trong bài viết này, chúng ta sẽ khám phá...</p>
-                <a href="#">ĐỌC THÊM</a>
-            </div>
-            <h1>24/06</h1>
-        </div>
-        <div class="blog-box">
-            <div class="blog-img">
-                <img src="assets/image/b3.jpg" alt="">
-            </div>
-            <div class="blog-details">
-                <h4>Món đồ không thể thiếu cho "Gơn Phố"</h4>
-                <p>"Món đồ không thể thiếu cho phong cách 'Gơn Phố' chính là chiếc áo...</p>
-                <a href="#">ĐỌC THÊM</a>
-            </div>
-            <h1>25/06</h1>
-        </div>
-        <div class="blog-box">
-            <div class="blog-img">
-                <img src="assets/image/b5.jpg" alt="">
-            </div>
-            <div class="blog-details">
-                <h4>Những Xu Hướng Lấy Cảm Hứng Từ Sàn Diễn</h4>
-                <p>Các xu hướng lấy cảm hứng từ sàn diễn đang tạo nên những phong cách thời trang đột phá và đầy sáng tạo...</p>
-                <a href="#">Đọc thêm</a>
-            </div>
-            <h1>26/06</h1>
-        </div>
-        <div class="blog-box">
-            <div class="blog-img">
-                <img src="assets/image/b6.jpg" alt="">
-            </div>
-            <div class="blog-details">
-                <h4>Dinh dưỡng lành mạnh</h4>
-                <p>Khi nhắc đến sự kết hợp giữa dinh dưỡng lành mạnh và thời trang, chúng ta không chỉ nói đến việc chăm sóc cơ thể mà còn là cách thể hiện phong cách sống khỏe mạnh và...</p>
-                <a href="#">ĐỌC THÊM</a>
-            </div>
-            <h1>27/06</h1>
+
+    <section id="about-head" class="section-p1">
+        <img src="./assets/image/a6.jpg" alt="img">
+        <div>
+            <h2>Chúng Tôi Là Ai?</h2>
+            <p>Chúng tôi là một nhóm sinh viên đam mê, đang bắt đầu hành trình tạo ra một trang web thương mại điện tử thời trang sáng tạo. Với tầm nhìn chung về việc kết hợp sáng tạo và công nghệ, đội ngũ của chúng tôi cam kết xây dựng một nền tảng không chỉ giới thiệu các xu hướng mới nhất mà còn ưu tiên trải nghiệm người dùng và tính tiếp cận. Mục tiêu của chúng tôi là tái định nghĩa mua sắm trực tuyến bằng cách cung cấp một bộ sưu tập quần áo và phụ kiện được tuyển chọn, đáp ứng các sở thích và phong cách sống đa dạng. Hãy theo dõi khi chúng tôi làm việc chăm chỉ để mang đến cho bạn một trải nghiệm mua sắm liền mạch và thú vị ngay tại đầu ngón tay của bạn.</p>
+            <abbr title="">Zara: Nơi Thời Trang Tìm Tới Bạn.</abbr>
+            <br><br>
+            <marquee bgcolor="#ccc" loop="-1" scrollamount="5" width="100%">Cam kết mang đến thời trang chất lượng, truyền cảm hứng và sức mạnh cho khách hàng trên toàn thế giới.</marquee>
+            
         </div>
     </section>
 
-     <section class="section-p1" id="pagination">
-        <a href="">1</a>
-        <a href="">2</a>
-        <a href=""><i class="fa-solid fa-arrow-right"></i></i></a>
+    <section id="about-app" class="section-p1">
+        <h1>Tải về <a href="#">Ứng dụng </a></h1>
+        <div class="video">
+            <video autoplay muted loop src="./assets/image/1.mp4"></video>
+        </div>
+    </section>
+
+    <section class="section-p1" id="feature">
+        <div class="fe-box">
+            <img src="assets/image/f1.png" alt="">
+            <h6>Giao hàng miễn phí</h6>
+        </div>
+        <div class="fe-box">
+            <img src="assets/image/f2.png" alt="">
+            <h6>Đặt hàng online</h6>
+        </div>
+        <div class="fe-box">
+            <img src="assets/image/f3.png" alt="">
+            <h6>Tiết kiệm tiền</h6>
+        </div>
+        <div class="fe-box">
+            <img src="assets/image/f4.png" alt="">
+            <h6>Quảng bá</h6>
+        </div>
+        <div class="fe-box">
+            <img src="assets/image/f5.png" alt="">
+            <h6>Giờ vàng</h6>
+        </div>
+        <div class="fe-box">
+            <img src="assets/image/f6.png" alt="">
+            <h6>Hộ trợ khách hàng 24/7</h6>
+        </div>
     </section>
 
     <section class="section-p1 section-m1" id="newsletter" style="background-image: url('assets/image/b14.png')">
@@ -172,7 +155,7 @@
         </div>
         <div class="btn">
             <button class="close">Đóng</button>
-            <button class="checkout" onclick="window.location.href='checkout.html'">Thanh Toán</button>
+            <button class="checkout" onclick="window.location.href='checkout.php'">Check Out</button>
         </div>
     </div>
 
@@ -206,7 +189,7 @@
 
         <div class="col">
             <h4>Tài khoản của tôi</h4>
-            <a href="index.html">Đăng xuất</a>
+            <a href="index.php">Đăng xuất</a>
             <a href="">Xem giỏ hàng</a>
             <a href="">Sản phẩm đăng ký</a>
             <a href="">Theo dõi đơn hàng</a>

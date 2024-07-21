@@ -6,20 +6,19 @@
     <title>Cartoon Nature T-Shirt</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <script src="https://kit.fontawesome.com/0b9558d756.js" ></script>
     <link rel="icon" type="image/x-icon" href="assets/image/logo.png">
 </head>
 <body>
     <section id="header">
-        <a href="loggedindex.html"><img src="assets/image/logo.png" width="150px" height="60px" class="logo" alt=""></a>
+        <a href="index.php"><img src="assets/image/logo.png" width="150px" height="60px" class="logo" alt=""></a>
         <div>
             <ul id="navbar">
-              <li><a href="loggedindex.html">Trang chủ</a></li>
-              <li><a class="active" href="loggedshop.html">Shop</a></li>
-              <li><a href="loggedblog.html">Blog</a></li>
-              <li><a href="loggedabout.html">Giới thiệu</a></li>
-              <li><a href="loggedcontact.html">Liên hệ</a></li>
+            <li><a href="index.php">Trang chủ</a></li>
+                <li><a class="active" href="shop.php">Shop</a></li>
+                <li><a href="blog.php">Blog</a></li>
+                <li><a href="about.php">Giới thiệu</a></li>
+                <li><a href="contact.php">Liên hệ</a></li>
                 <li id="lg-bag" class="icon-cart">
                     <i class="fa-solid fa-cart-shopping"></i>
                     <span>0</span>
@@ -28,8 +27,6 @@
                 <a href="" id="close"><i class="fa-solid fa-x"></i></a>
             </ul>
         </div>
-        
-
         <div id="mobile">
             <ul>
                 <li class="icon-cart">
@@ -39,51 +36,6 @@
             </ul>
             <i id="bar" class="fas fa-outdent"></i>
         </div>
-
-        <!-- dropdown   -->
-        <div class="profile-dropdown">
-            <div onclick="toggle()" class="profile-dropdown-btn">
-              <div class="profile-img" style="background-image: url('assets/image/people/1.jpg')">
-                <i class="fa-solid fa-circle"></i>
-              </div>
-    
-              <span
-                >Phat Ng
-                <i class="fa-solid fa-angle-down"></i>
-              </span>
-            </div>
-    
-            <ul class="profile-dropdown-list">
-              <li class="profile-dropdown-list-item" onclick="window.location.href='profile.html'">
-                <a href="#">
-                  <i class="fa-regular fa-user"></i>
-                  Tài khoản
-                </a>
-              </li>
-    
-              <li class="profile-dropdown-list-item">
-                <a href="#">
-                  <i class="fa-solid fa-sliders"></i>
-                  Cài đặt
-                </a>
-              </li>
-    
-              <li class="profile-dropdown-list-item">
-                <a href="#">
-                  <i class="fa-regular fa-circle-question"></i>
-                  Hỗ trợ
-                </a>
-              </li>
-              <hr />
-    
-              <li class="profile-dropdown-list-item" onclick="window.location.href='index.html'">
-                <a href="#">
-                  <i class="fa-solid fa-arrow-right-from-bracket" ></i>
-                  Đăng xuất
-                </a>
-              </li>
-            </ul>
-          </div>
     </section>
 
     <section class="section-p1" id="prodetails">
@@ -107,26 +59,33 @@
         </div>
         
         <div class="single-pro-details">
-            <h6>Home / T-Shirt</h6>
-            <h4>Cartoon Nature T-Shirt</h4>
+            <h6>Shop / Sản phẩm</h6>
+            <h4>Sơ Mi Thiên Nhiên</h4>
             <h2>$139.00</h2>
             <select>
-                <option value="">Select Size</option>
+                <option value="">Chọn Kích Cỡ</option>
                 <option value="">XL</option>
                 <option value="">XXL</option>
                 <option value="">Small</option>
                 <option value="">Large</option>
             </select>
             <input type="number" value="1">
-            <button class="normal">Add To Cart</button>
-            <h4>Product Details</h4>
-            <span>Zara's Cartoon Nature T-Shirt combines whimsical cartoon illustrations with nature-inspired motifs, creating a charming and stylish garment. Crafted from premium materials, it offers comfort and durability, making it suitable for everyday wear. The design reflects Zara's commitment to quality and innovation, ensuring each piece is both visually appealing and practical. Versatile and effortlessly chic, this T-Shirt transitions seamlessly from casual to more refined settings, adding a touch of playful elegance to any outfit. It invites wearers to express their individual style with confidence, embodying a blend of artistry and comfort that defines Zara's approach to contemporary fashion.</span>
+            <button class="normal">Thêm vào giỏ hàng</button>
+            <h4>Chi tiết Sản phẩm</h4>
+            <span>Áo sơ mi Zara với hình ảnh hoạt hình kết hợp các họa tiết lấy cảm hứng từ thiên nhiên, tạo nên một trang phục vừa đáng yêu vừa thời trang. Được chế tác từ chất liệu cao cấp, áo mang lại sự thoải mái và độ bền, phù hợp cho việc mặc hàng ngày. Thiết kế phản ánh cam kết của Zara về chất lượng và đổi mới, đảm bảo mỗi sản phẩm vừa hấp dẫn về mặt thị giác vừa thực tiễn. Với sự linh hoạt và phong cách dễ dàng, áo thun này chuyển mình một cách hoàn hảo từ những dịp thường ngày đến những buổi tiệc tinh tế hơn, thêm phần thanh lịch và vui tươi cho bất kỳ bộ trang phục nào. Nó khuyến khích người mặc thể hiện phong cách cá nhân với sự tự tin, thể hiện sự kết hợp giữa nghệ thuật và sự thoải mái, đặc trưng cho cách tiếp cận thời trang đương đại của Zara. <br><br></span>
+            <span><strong>Chất liệu: </strong>100% cotton hữu cơ</span>
+
+
+
+
+
+</span>
         </div>
     </section>
 
     <section class="section-p1" id="product1">
-        <h2>Featured Products</h2>
-        <p>Summer Collection Designs</p>
+        <h2>Sản Phẩm Đang Hot</h2>
+        <p>Bộ sưu tập thiết kế mùa hè</p>
         <div class="pro-container">
             <div class="pro">
                 <img src="assets/image/n1.jpg" alt="">
@@ -213,19 +172,19 @@
         </div>
         <div class="btn">
             <button class="close">Đóng</button>
-            <button class="checkout" onclick="window.location.href='checkout.html'">Thanh Toán</button>
+            <button class="checkout" onclick="window.location.href='checkout.php'">Thanh Toán</button>
         </div>
     </div>
 
     <footer class="section-p1">
         <div class="col">
             <img class="logo" src="assets/image/logo.png" width="150px" height="60px" alt="">
-            <h4>Liên hệ</h4>
-            <p><strong>Địa chỉ: </strong>P. Nguyễn Trác, Yên Nghĩa, Hà Đông, Hà Nội</p>
-            <p><strong>Diện thoại: </strong> 0984663477</p>
-            <p><strong>Giờ làm việc: </strong>08:00 - 16:00, Mon - Sat</p>
+            <h4>Contacts</h4>
+            <p><strong>Address: </strong>P. Nguyễn Trác, Yên Nghĩa, Hà Đông, Hà Nội</p>
+            <p><strong>Phone: </strong> 0984663477</p>
+            <p><strong>Working hours: </strong>08:00 - 16:00, Mon - Sat</p>
             <div class="follow">
-                <h4>Theo dõi</h4>
+                <h4>Follow us</h4>
                 <div class="icon">
                     <i class="fa-brands fa-facebook-f"></i>
                     <i class="fa-brands fa-twitter"></i>
@@ -238,30 +197,30 @@
 
         <div class="col">
             <h4>About</h4>
-            <a href="">Về chúng tôi</a>
-            <a href="">Thông tin đơn hàng</a>
-            <a href="">Chính sách bảo mật</a>
-            <a href="">Điều khoản và chính sách</a>
-            <a href="">Liên hệ với chúng tôi</a>
+            <a href="">About Us</a>
+            <a href="">Delivery Information</a>
+            <a href="">Privacy Policy</a>
+            <a href="">Terms & Conditions</a>
+            <a href="">Contact Us</a>
         </div>
 
         <div class="col">
-            <h4>Tài khoản của tôi</h4>
-            <a href="index.html">Đăng xuất</a>
-            <a href="">Xem giỏ hàng</a>
-            <a href="">Sản phẩm đăng ký</a>
-            <a href="">Theo dõi đơn hàng</a>
-            <a href="">Hỗ trợ</a>
+            <h4>My Account</h4>
+            <a href="">Sign in</a>
+            <a href="">View Cart</a>
+            <a href="">My Wishlist</a>
+            <a href="">Track My Order</a>
+            <a href="">Help</a>
         </div>
         
         <div class="col install">
-            <h4>Tải ứng dụng</h4>
-            <p>Từ App Store hoặc Google Play</p>
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
             <div class="row">
                 <img src="assets/image/app.jpg" alt="">
                 <img src="assets/image/play.jpg" alt="">
             </div>
-            <p>Cổng Thanh Toán Được Bảo Mật</p>
+            <p>Secured Payment Gateways</p>
             <img src="assets/image/pay.png" alt="">
         </div>
 
@@ -269,8 +228,6 @@
             <p>© 2024, Nguyen The Phat - CNTT-VJ Phenikaa</p>
         </div>
     </footer>
-
-
 
     <script>
         var MainImg = document.getElementById("MainImg");
@@ -291,7 +248,7 @@
     </script>
     
 
-    <script  src="assets/js/dropdown.js"></script>
+
     <script  src="assets/js/cart.js"></script>
     <script  src="assets/js/script.js"></script>
 </body>
